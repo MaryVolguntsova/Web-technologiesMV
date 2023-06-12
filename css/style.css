@@ -1,0 +1,47 @@
+
+.card {
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: rgba(255, 94, 0, 0.877);
+    box-shadow: 0 5px 10px rgb(14, 11, 11);
+    border-radius: 10px;
+}
+
+.card-foto {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 35px;
+    color: rgb(8, 3, 3);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    color: rgb(12, 7, 7);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-list {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 0;
+    list-style-position: inside;  
+    font-family: 'Roboto', sans-serif;
+}
