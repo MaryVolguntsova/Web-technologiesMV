@@ -27,6 +27,13 @@
 </style>
 <body>
     <!-- <script src="js/username.js"></script> -->
+    <script language="JavaScript"> 
+        alert ("Привет, странник!")
+        let p = prompt ("Как тебя зовут?")
+        confirm ("Хочешь познакомиться со мной?")
+        alert ("Приятного чтения, " + p)
+    </script>
+   
     <div class="card">
         <img class="card-foto" src="img\IAM.jpg" alt="MYPHOTO">
         <h1 class="card-title">Мария Волгунцова</h1>
@@ -36,8 +43,8 @@
         </div>
         <h2 class="card-subtitle">Если коротко, то:</h2>
         <ul class="card-list"> <b>
-            <li>Руководитела коллетивом более 15 человек</li>
-            <li>Поддерживала высокие стандарты клиентского сервиса в разных нишах</li>
+            <li>Работаю в клиентском сервисе более 8 лет </li>
+            <li> Хорошо знаю тонкие места в общении с клиентами</li>
             <li>Не боюсь новых тем и нестандартных задач</li>
             <li>Хорошо ищу, систематизирую и репрезентирую информацию</li>
             <li>Пишу статьи по заветам гуру Ильяхова</li>
@@ -51,5 +58,32 @@
         </a></p>
         <img class="card-img-botton" src="https://i1.sndcdn.com/artworks-000106725653-9y938l-t500x500.jpg" alt="Flower">
     </div>
+
+    <!-- <script>
+        Пример проверки условия -->
+        <!-- let year = prompt('Какой сейчас год?', '');
+        if (year == 2023) {
+            alert('Да вы знаток!')
+        } else {
+            alert ('Неверный ответ!')
+        }
+        Пример другого синтаксиса   -->
+        <!-- let accessAllowed = (age > 18) ? true : false;
+    </script> -->
+
+    <!-- Пример написания функции -->
+    <script language="JavaScript"> 
+        confirm ("Сложим два числа?")
+
+        function sum(a, b)
+        {
+            return a+b
+        }
+
+        let a=parseInt(prompt("Введите число"))
+        let b=parseInt(prompt("Введите второе число"))
+        alert (sum(a, b))
+    </script>
+
 </body>
 </html>
